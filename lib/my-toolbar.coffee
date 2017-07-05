@@ -52,6 +52,22 @@ module.exports =
       tooltip: 'Open Settings View'
       iconset: 'ion'
 
+    @toolBar.addSpacer()
+
+    @toolBar.addButton
+      icon: 'monitor'
+      callback: 'hydrogen-launcher:launch-jupyter-console-in-platformio-terminal'
+      tooltip: 'Launch Jupyter Console'
+      iconset: 'ion'
+	 
+    @toolBar.addSpacer()
+	
+    @toolBar.addButton
+      icon: 'chevron-left'
+      callback: 'markdown-folding:cycle'
+      tooltip: 'Cycle Markdown Folding State'
+      iconset: 'ion'
+	  
     if atom.inDevMode()
       @toolBar.addSpacer()
 

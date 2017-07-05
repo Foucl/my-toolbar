@@ -1,17 +1,17 @@
 {
-	"name": "tool-bar-main",
-	"version": "0.0.10",
+	"name": "mymu-toolbar",
+	"version": "0.0.11",
 	"description": "Main tool bar",
     "repository":{
         "type": "git",
-        "url": "https://github.com/suda/tool-bar-main"
+        "url": "https://github.com/foucl/my-toolbar"
     },
 	"keywords": [
 		"toolbar",
 		"tool-bar"
 	],
 	"license": "MIT",
-	"main": "./lib/tool-bar-main",
+	"main": "./lib/my-toolbar",
 	"dependencies": {
 		"atom-package-deps": "^3.0.7"
 	},
